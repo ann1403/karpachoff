@@ -1,0 +1,21 @@
+@import './variables.scss';
+
+.linewithmenu{
+    background: $background;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.08); 
+    width: 100%;
+    overflow: hidden;
+ .head-menu{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+       
+    .logok{
+        padding: 10px;
+    }
+    
+   
+ }  
+
+}
