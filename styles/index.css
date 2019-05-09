@@ -44,7 +44,7 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    width: 200px;
+    width: 500px;
 }
 
 .mobile-ver {
@@ -112,10 +112,11 @@
     margin: 0;
 }
 
-.main img {
+
+/* .main img {
     padding: 50px 0 0 0;
     align-self: flex-end;
-}
+} */
 
 .main .arm {
     color: #FFFFFF;
@@ -756,9 +757,24 @@
 }
 
 @media screen and (max-width: 600px) {
-    .theme {
+    .theme-with-line {
         width: 200px;
     }
+    .line-w {
+        width: 300px;
+    }
+}
+
+.t6 {
+    padding: 0 0 0 20px;
+}
+
+.course-theme {
+    padding: 0 0 0 10px;
+}
+
+.arm {
+    margin: 60px 0 0px 0;
 }
 
 
