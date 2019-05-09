@@ -635,6 +635,9 @@
 }
 
 @media screen and (max-width: 900px) {
+    .theme {
+        width: 400px;
+    }
     .main {
         justify-content: center;
     }
@@ -707,6 +710,9 @@
 }
 
 @media screen and (max-width: 888px) {
+    .theme {
+        width: 300px;
+    }
     .main {
         width: 100%;
         background: #296DCE;
@@ -746,6 +752,12 @@
     }
     .cont {
         margin: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .theme {
+        width: 200px;
     }
 }
 
