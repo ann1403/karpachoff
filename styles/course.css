@@ -87,7 +87,7 @@
     
     .background {
         width: 100%;
-        background-image: url('../img/background2.jpg');
+        background-image: url('../img/back3.png');
     }
     
     .back-main {
@@ -139,6 +139,7 @@
     }
     
     .main .name-theme {
+        width: 300px;
         font-family: ProximaNova-Bold;
         font-size: 24px;
         line-height: 41px;
@@ -338,6 +339,11 @@
         color: #222B3A;
         text-align: center;
     }
+    /* .choices:not(:last-of-type)::after {
+        display: block;
+        flex-direction: column;
+        content: url("../img/lineafterchoices.svg");
+    } */
     
     .text {
         width: 650px;
@@ -1146,6 +1152,9 @@
         }
         .t6 {
             padding: 0 0 0 20px;
+        }
+        .main .name-theme {
+            width: 250px;
         }
     }
     /* @media screen and (max-width: 1200px) {
